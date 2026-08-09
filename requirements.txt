@@ -1,3 +1,4 @@
 streamlit
 pymongo
 certifi
+Authlib>=1.3.2
