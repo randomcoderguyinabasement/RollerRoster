@@ -78,7 +78,6 @@ for a in attractions:
 attraction_type = cool.get("type")
 inversions = cool.get("inversions")
 
-st.write("Type: ",attraction_type, " Inversions: ", inversions)
 
 with st.form("review_form", clear_on_submit=True):
     stars = st.slider("Rating ⭐", min_value=0.0, max_value=5.0, value=4.0, step=0.5)
